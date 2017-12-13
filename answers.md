@@ -13,7 +13,7 @@ To add tags, we need  to open the agent config  file ( we could open it  through
 
 <img src="./images/1.png">
 
-we can find the added tags in "Infrastructure -> Host Map".
+we can find the added tags in `Infrastructure -> Host Map`.
 
 <img src="./images/2.PNG">
 
@@ -38,7 +38,7 @@ We can change the collection interval through the [YAML](./code/YAML.yaml) file.
 
 ## Visualizing Data:
 
-We created  a timeboard by clicking  on "Dashboards -> new Dashboard" then we  customize our dashboard.
+We created  a timeboard by clicking  on `Dashboards -> new Dashboard` then we  customize our dashboard.
 
 <img src="./images/8.PNG">
 
