@@ -9,7 +9,7 @@ We need to sign up for Datadog using “Datadog Recruiting Candidate” in the �
 ## Collecting Metrics:
 
 Tags are mostly used  for  filtering and  search purpose.
-To add tags, we need  to open the agent config  file ( we could open it  through the data agent manager then click on settings) then add tags.
+To add tags, we need  to open the agent config  file [datadog.conf](./code/datadog.conf) ( we could open it  through the data agent manager then click on settings) then add tags.
 
 <img src="./images/1.png">
 
@@ -131,6 +131,16 @@ There are several ways to set up application performance monitor.
 We implemented Flask as a service (however, it doesn’t work as expected).
 
 <img src="./images/27.PNG">
+
+To use the APM module, user need to enable this module `apm_enabled: true` in the config file [datadog.conf](./code/datadog.conf) 
+
+<img src="./images/28.PNG">
+
+<img src="./images/29.PNG">
+
+<img src="./images/30.PNG">
+
+<img src="./images/31.PNG">
 
 * **Bonus Question**: What is the difference between a Service and a Resource?
 Service is a main process which aims to do particular thing. 
